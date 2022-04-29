@@ -1,24 +1,33 @@
 programa
 {
-	inclua biblioteca Matematica--> mat
 	
 	funcao inicio()
 	{
-		/* 4. Escreva um sistema que leia três números inteiros e positivos (A, B, C) e
-			calcule a seguinte expressão: */
+		inteiro C, N, E
+		real sal, SE
 
-		inteiro A, B, C, D
 
-		escreva("Informe um numero")
-		leia(A)
-		escreva("Informe um numero")
-		leia(B)
-		escreva("Informe um numero")
+		escreva("Codigo do trabalhador: ")
 		leia(C)
-		
-		D = ( mat.potencia(A+B,2) + mat.potencia(B+C,2) ) / 2
+		escreva("Informe as horas trabalhadas: ")
+		leia(N)
 
-		escreva("O resultado é: ", D)
+		sal = N * 10.00
+
+		se (N > 50){
+			E = N - 50
+			SE = E * 20.00
+			sal = sal + SE
+			
+		} senao {
+			E = 0
+			SE = 0.0
+		}
+
+		
+		escreva("O salario total é: ", sal)
+		escreva("\nO salario excedente é: ", SE)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +35,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 430; 
+ * @POSICAO-CURSOR = 295; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

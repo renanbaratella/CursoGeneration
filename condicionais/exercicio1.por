@@ -1,24 +1,28 @@
 programa
 {
-	inclua biblioteca Matematica--> mat
 	
 	funcao inicio()
 	{
-		/* 4. Escreva um sistema que leia três números inteiros e positivos (A, B, C) e
-			calcule a seguinte expressão: */
+		inteiro P, E
+		real M
 
-		inteiro A, B, C, D
+		escreva("Informe o peso em KG: ")
+		leia(P)
 
-		escreva("Informe um numero")
-		leia(A)
-		escreva("Informe um numero")
-		leia(B)
-		escreva("Informe um numero")
-		leia(C)
+		se (P > 50){
+			E = P - 50 
+			M = E * 4.00
+		}
+		senao{
+			E = 0
+			M = 0.0
+		}
 		
-		D = ( mat.potencia(A+B,2) + mat.potencia(B+C,2) ) / 2
 
-		escreva("O resultado é: ", D)
+		escreva("\nO kg informado é: ", P)
+		escreva("\nO peso excedente é: ",E)
+		escreva("\nA multa a pagar é: ",M)	
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +30,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 430; 
+ * @POSICAO-CURSOR = 57; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
