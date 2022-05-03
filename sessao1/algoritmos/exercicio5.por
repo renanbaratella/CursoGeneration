@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Matematica--> math
+	inclua biblioteca Matematica--> math
 	
 	funcao inicio()
 	{
@@ -18,7 +18,7 @@ programa
 		escreva("Informe a terceira nota: ")
 		leia(n3)
 
-		media = ( (n1 / 2) + (n2 / 3) + (n3 / 5) / 10 )
+		media = ( ((n1 * 2) + (n2 * 3) + (n3 * 5)) / 10 )
 
 		escreva("A media ponderada é: ", math.arredondar(media, 2))
 
@@ -31,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 554; 
+ * @POSICAO-CURSOR = 8; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

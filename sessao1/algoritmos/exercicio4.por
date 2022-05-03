@@ -7,7 +7,7 @@ programa
 		/* 4. Escreva um sistema que leia três números inteiros e positivos (A, B, C) e
 			calcule a seguinte expressão: */
 
-		inteiro A, B, C, D
+		real A, B, C, D
 
 		escreva("Informe um numero")
 		leia(A)
@@ -16,7 +16,7 @@ programa
 		escreva("Informe um numero")
 		leia(C)
 		
-		D = ( mat.potencia(A+B,2) + mat.potencia(B+C,2) ) / 2
+		D = ( mat.potencia(A+B,2.0) + mat.potencia(B+C,2.0) ) / 2
 
 		escreva("O resultado é: ", D)
 	}
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 430; 
+ * @POSICAO-CURSOR = 320; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

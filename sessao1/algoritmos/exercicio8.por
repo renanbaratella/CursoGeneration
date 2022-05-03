@@ -3,22 +3,22 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n, soma = 0
+		real custoFabrica, custoConsumidor, pd, i
 
+		escreva("Informe o custo de fábrica de um carro: \n")
+		leia(custoFabrica)
 
-		faca
-		{
-			escreva("Informe um número: ")
-			leia(n)
-
-			para(inteiro i = n; i >= 1; i--){
-				soma += i
-				escreva(i, "\n")
-			}
+		pd = custoFabrica * 0.28
+		i = custoFabrica * 0.45
 		
-		}enquanto(n<=0)
+		custoConsumidor = custoFabrica + pd + i 
 
-		escreva(soma, "\n")
+		escreva("\nO custo ao consumidor final é: ", custoConsumidor)
+
+		
+
+		
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 52; 
+ * @POSICAO-CURSOR = 160; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

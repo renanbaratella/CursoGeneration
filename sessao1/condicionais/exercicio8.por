@@ -3,18 +3,16 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro N
+		inteiro n
 
 		escreva("Informe um número: ")
-		leia(N)
+		leia(n)
 
-		se (N > 100){
-			escreva("O número é: ", N)
+		se(n <= 100){
+			n = 0
 		}
-		senao {
-			N = 0
-			escreva("O valor é: ", N)
-		}
+
+		escreva("\nO valor é: ", n)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -22,7 +20,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 163; 
+ * @POSICAO-CURSOR = 148; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -3,22 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro n, soma = 0
 
+		real a, b, c, d, i, f, x, y
 
-		faca
-		{
-			escreva("Informe um número: ")
-			leia(n)
+		escreva("Informe os valores A, B, C, D, I, F\n")
+		leia(a,b,c,d,i,f)
 
-			para(inteiro i = n; i >= 1; i--){
-				soma += i
-				escreva(i, "\n")
-			}
+		x = (c*i-b*f) / (a*i-b*d)
+		y = (a*f-c*d) / (a*i-b*d)
+
+		escreva("Os valors de X e Y é: \n", x, "\n", y)
+
 		
-		}enquanto(n<=0)
-
-		escreva(soma, "\n")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -26,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 52; 
+ * @POSICAO-CURSOR = 223; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

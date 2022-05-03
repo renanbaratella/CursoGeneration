@@ -4,7 +4,7 @@ programa
 	
 	funcao inicio()
 	{
-		real n1,n2,n3,n4, rn1, rn2, rn3, rn4
+		real n1,n2,n3,n4
 
 		escreva("Informe o primeiro numero: ")
 		leia(n1)
@@ -15,20 +15,20 @@ programa
 		escreva("Informe o quarto numero: ")
 		leia(n4)
 
-		rn1 = math.potencia(n1, 2)
-		rn2 = math.potencia(n2, 2)
-		rn3 = math.potencia(n3, 2)
-		rn4 = math.potencia(n4, 2)
+		n1 = math.potencia(n1, 2)
+		n2 = math.potencia(n2, 2)
+		n3 = math.potencia(n3, 2)
+		n4 = math.potencia(n4, 2)
 
 
-		se (rn3 >= 1000){
-			escreva("O valor do quadrado do terceiro numero é: ", rn3)
+		se (n3 >= 1000){
+			escreva("O valor do quadrado do terceiro numero é: ", n3)
 		}
 		senao {
-			escreva("O valor do quadrado do primeiro é: ", rn1)
-			escreva("\nO valor do quadrado do segundo é: ", rn2)
-			escreva("\nO valor do quadrado do terceiro é: ", rn3)
-			escreva("\nO valor do quadrado do quarto é: ", rn4)
+			escreva("O valor do quadrado do primeiro é: ", n1)
+			escreva("\nO valor do quadrado do segundo é: ", n2)
+			escreva("\nO valor do quadrado do terceiro é: ", n3)
+			escreva("\nO valor do quadrado do quarto é: ", n4)
 		}
 		
 
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 717; 
+ * @POSICAO-CURSOR = 723; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

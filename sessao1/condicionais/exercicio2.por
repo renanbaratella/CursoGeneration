@@ -12,16 +12,15 @@ programa
 		escreva("Informe as horas trabalhadas: ")
 		leia(N)
 
-		sal = N * 10.00
-
 		se (N > 50){
 			E = N - 50
 			SE = E * 20.00
-			sal = sal + SE
+			sal = 50*10 + SE
 			
 		} senao {
 			E = 0
 			SE = 0.0
+			sal = N * 10.00
 		}
 
 		
@@ -35,7 +34,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 295; 
+ * @POSICAO-CURSOR = 216; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
