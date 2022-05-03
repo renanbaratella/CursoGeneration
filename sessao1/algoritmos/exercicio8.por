@@ -11,7 +11,7 @@ programa
 		pd = custoFabrica * 0.28
 		i = custoFabrica * 0.45
 		
-		custoConsumidor = custoFabrica + pd + i 
+		custoConsumidor = custoFabrica + pd + i
 
 		escreva("\nO custo ao consumidor final é: ", custoConsumidor)
 
@@ -26,7 +26,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 160; 
+ * @POSICAO-CURSOR = 253; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
