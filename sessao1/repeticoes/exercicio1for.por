@@ -16,7 +16,7 @@ programa
 			escreva("\n")
 
 			somaSalario += salario
-			somaFilhos += filhos	
+			somaFilhos += filhos
 
 			se (maiorSalario < salario){
 				maiorSalario = salario
@@ -44,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 593; 
+ * @POSICAO-CURSOR = 483; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
