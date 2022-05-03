@@ -1,19 +1,23 @@
 programa
 {
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
-		real v[10],media = 0.0, soma = 0.0, maior = 0.0
-		inteiro qtd = 0 
+		inteiro v[10], maior = 0, qtd = 0, dado
+		real media = 0.0, soma = 0.0
 
 		para(inteiro i=0;i<10;i++){
-			escreva("Informe os lançamentos: ")
-			leia(v[i])
+			dado = sorteia(1,20)
+			v[i] = dado
 			soma = soma + v[i]
 
 			se (maior < v[i]){
 				maior = v[i]
-				qtd++
+
+				se(maior != v[0]){
+					qtd++
+				}
 			}
 		}
 
@@ -27,6 +31,9 @@ programa
 		escreva("\nSoma: ", soma)
 		escreva("\nOcorrências de maior: ", qtd)
 
+
+		
+
 		
 	}
 }
@@ -35,9 +42,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 267; 
+ * @POSICAO-CURSOR = 187; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {v, 7, 10, 1}-{maior, 7, 17, 5}-{qtd, 7, 28, 3};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
